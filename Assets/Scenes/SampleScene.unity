@@ -437,8 +437,8 @@ MonoBehaviour:
   carpetFootstepSounds: []
   footstepAudioPosition: {fileID: 162920244}
   audioSource: {fileID: 162920245}
-  ZoomFOV: 50
-  initialFOV: 40
+  ZoomFOV: 40
+  initialFOV: 50
   cameraZoomSmooth: 1
 --- !u!143 &162920247
 CharacterController:
@@ -1618,7 +1618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6754674874353905211, guid: 7eba3fdf68aa1ed499a32655f9b87cc0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7eba3fdf68aa1ed499a32655f9b87cc0, type: 3}
       propertyPath: m_Name
