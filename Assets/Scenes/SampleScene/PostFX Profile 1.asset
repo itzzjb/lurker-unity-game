@@ -21,10 +21,10 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.22
   clamp:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.021
 --- !u!114 &-1836559115738736488
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -43,15 +43,15 @@ MonoBehaviour:
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 5
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 30
+    m_Value: 15
   gaussianMaxRadius:
     m_OverrideState: 0
     m_Value: 1
   highQualitySampling:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   focusDistance:
     m_OverrideState: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: -0.3217159}
   midtones:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0}
   highlights:
     m_OverrideState: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     m_Value: 1
   response:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 1
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
