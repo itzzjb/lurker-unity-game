@@ -8,7 +8,8 @@ public class EnemyHealth : MonoBehaviour
     // Called when the enemy is initialized.
     private void Start()
     {
-        currentHealth = maxHealth; // Set the initial health to the maximum health.
+        // Set the initial health to the maximum health.
+        currentHealth = maxHealth;
     }
 
     // Function to apply damage to the enemy.
@@ -20,7 +21,8 @@ public class EnemyHealth : MonoBehaviour
         // Check if the enemy's health has reached zero or below.
         if (currentHealth <= 0)
         {
-            Die(); // Call the function to handle the enemy's death.
+            // Call the function to handle the enemy's death.
+            Die();
         }
     }
 
@@ -31,6 +33,6 @@ public class EnemyHealth : MonoBehaviour
         // You can customize this method based on your game's requirements.
 
         // For example, you might destroy the enemy GameObject:
-        gameObject.GetComponent<Animator>().SetBool("Death", true);
+        gameObject.GetComponent<Animator>().SetBool("Death", true); // Trigger the death animation.
     }
 }

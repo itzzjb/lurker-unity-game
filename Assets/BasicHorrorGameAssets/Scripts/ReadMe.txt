@@ -1,7 +1,3 @@
-Inside this folder are all the scripts needed to make a simple horror game.
-
-lets go over all of them and what they do:
-
 -Player Controller
 	-Controls the players movement, look, and sounds.
 
